@@ -5,7 +5,7 @@ class ATM{
 private:
     long long ac_no=132534298709;
     int balance=1246379;
-    char name[6]="Ahana";
+    char name[6]="Sohini";
     int pin=12345;
     void withdraw(){
         int amt;
