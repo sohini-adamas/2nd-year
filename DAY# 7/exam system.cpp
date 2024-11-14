@@ -27,7 +27,24 @@ class c:public b{
 				cin>>reg;
 			}
 };
-class d:public a, public b,public c{
+class d{
 	public: int sl_no;
-	
+		void get_data_d(){
+				cout<<"serial No. of answer sheet"<<endl;
+				cin>>sl_no;
 };
+class E: public c, public d{
+	public: int date;
+		void get_data_e(){
+				cout<<"date"<<endl;
+				cin>>date;
+		}
+};
+int main(){
+	E e;
+	e.get_data_a();
+	e.get_data_b();
+	e.get_data_c();
+	e.get_data_d();
+	e.get_data_e();
+}
